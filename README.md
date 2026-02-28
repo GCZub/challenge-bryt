@@ -117,9 +117,9 @@ We’re not expecting a full storefront—**just one polished feature**.
 
 - [ ] Shared element transition: product card image → modal hero image.
 - [ ] Prefetch product detail data on product hover/focus to reduce perceived modal load time.
-- [ ] Route-based modal:
-  - [ ] Opening Quick View updates the URL (e.g., `/products/[handle]`)
-  - [ ] Closing returns to the previous route without a full page reload
+- [x] Route-based modal:
+  - [x] Opening Quick View updates the URL (e.g., `/products/[handle]`)
+  - [x] Closing returns to the previous route without a full page reload
 - [ ] Focus trap + full accessible modal semantics (`role="dialog"`, `aria-modal="true"`, labelled title).
 - [ ] Sticky mobile CTA bar (improves usability on small screens).
 - [ ] Keyboard enhancements:
