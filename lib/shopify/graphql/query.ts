@@ -6,3 +6,30 @@ export const getShop = `#graphql
     }
   }
 ` as const;
+export const getCollectionProducts = `#graphql
+  query getCollectionProducts($handle: String!) {
+    collectionByHandle(handle: $handle) {
+      products(first: 10) {
+        edges {
+          node {
+            id
+            title
+            handle
+            priceRange {
+              minVariantPrice {
+                amount
+                currencyCode
+              }
+            }
+            images(first: 1) {
+              edges {
+                node {
+                  url
+                }
+}
+                }
+}
+                }
+}
+}
+}` as const;
