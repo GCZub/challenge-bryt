@@ -1,72 +1,13 @@
 # Bryt Designs Tech Challenge
 
-### Shopify Quick View Modal (Headless UI Feature)
+### Notes
 
-### Hello fellow candidate! 👋
+With more time I would have alloted more detail and dedication to the structure and design of the product grid, as well as how these are display. Would have also implemented a better simulated add to cart, while also creating a cart modal/page to better show how users would see their products, the final amount to pay.
 
-Thanks for taking the time to work through this Bryt Designs challenge — we’re excited to see what you build! 😄
+One of the main features I consider that would be good, and would have add with more time is a wishlist, letting the user store their desired products for easier access to this and see any possible price changes.
 
-Today’s challenge is to build a **single, high-fidelity storefront feature** using **Next.js (React)**, **TypeScript**, **TailwindCSS**, **Motion**, and Shopify’s **Storefront GraphQL API**.
 
-This is intentionally **design- and animation-forward**. We care a lot about visual polish, interaction details, and thoughtful UI states—while still seeing how you model React state and integrate real Shopify data.
 
----
-
-## Why a Quick View Modal?
-
-A Quick View modal is one of the best “small but deep” features in modern commerce UI:
-
-- It requires real product/variant data modeling (Storefront API + GraphQL)
-- It forces careful component design (layout, hierarchy, accessibility)
-- It reveals attention to detail via states (loading, disabled, success)
-- It’s an ideal place to demonstrate tasteful animation via Motion
-
----
-
-## What’s the goal of this challenge? ⚽
-
-We want to understand your abilities by measuring:
-
-- **Design quality** (layout, spacing, typography, responsiveness)
-- **Animation quality** (Motion transitions, microinteractions, cohesion)
-- **React problem-solving** (state modeling, derived state, UI correctness)
-- **Shopify knowledge** (Storefront API queries, product/variant logic)
-- **Code clarity** (TypeScript usage, structure, readability)
-
----
-
-## What’s the process like?
-
-- You will have **6 hours** from when you receive this challenge to complete and submit your project.
-- Please complete it to the best of your ability within the time you choose.
-- Submit your repo via email when finished.
-- Include notes in your README about tradeoffs and what you’d do next with more time.
-
-We’re not expecting a full storefront—**just one polished feature**.
-
----
-
-# Project Requirements
-
-### Required tools
-
-1. **Node (LTS)**
-2. **PNPM** (we use this as our only Node package manager)
-3. A Shopify store we provide access to (Storefront token + collection handle)
-   - We will provide:
-     - `SHOPIFY_STOREFRONT_PRIVATE_ACCESS_TOKEN`
-     - `NEXT_PUBLIC_SHOPIFY_STORE_NAME`
-     - `NEXT_PUBLIC_SHOPIFY_STOREFRONT_API_VERSION`
-
-### Required technologies (must be used)
-
-- Next.js (React)
-- TypeScript
-- TailwindCSS
-- Motion
-- Shopify Storefront GraphQL API
-
-**Please feel free to use other libraries if needed, but try to keep usage minimal. You may use a Headless component library, however, you will be disqualified if you use any ui component library (Material UI, Shadcn, ...etc).**
 
 ## Challenge Goals
 
