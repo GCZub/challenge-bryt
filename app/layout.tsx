@@ -1,3 +1,4 @@
+
 import type { Metadata } from "next";
 import { DM_Sans, Google_Sans} from "next/font/google";
 import "./globals.css";
@@ -19,7 +20,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={ `w-screen h-screen ${googleSans.variable} ${dmSans.variable} bg-white text-black dark:bg-black dark:text-white`}
+        className={`w-screen min-h-screen ${googleSans.variable} ${dmSans.variable} text-white bg-gradient-to-br from-black  to-indigo-950`}
       >
         {children}
       </body>
