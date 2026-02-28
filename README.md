@@ -85,9 +85,9 @@ We’re not expecting a full storefront—**just one polished feature**.
   - [x] Focus returns to the triggering element on close
 - [x] Product details shown inside the modal are fetched from Shopify’s **Storefront API** (GraphQL).
 - [ ] Modal includes a designed **loading skeleton state** while product details are loading.
-- [ ] Modal layout:
-  - [ ] Desktop: two-column layout (media left, content right)
-  - [ ] Mobile: stacked layout (media top, content bottom)
+- [x] Modal layout:
+  - [x] Desktop: two-column layout (media left, content right)
+  - [x] Mobile: stacked layout (media top, content bottom)
 - [ ] Variant selection UI:
   - [ ] Render product options (e.g., Size/Color) as designed controls (pills/segmented preferred)
   - [ ] Maintain `selectedOptions` state (option-name → value)
@@ -98,16 +98,16 @@ We’re not expecting a full storefront—**just one polished feature**.
 - [ ] Primary CTA: **Add to bag (simulation only)**:
   - [ ] CTA disabled until a valid, available variant is selected
   - [ ] On click, simulate async add with a deterministic delay (~800–1200ms)
-  - [ ] CTA transitions to a success state (e.g., “Added” + check)
+  - [x] CTA transitions to a success state (e.g., “Added” + check)
   - [ ] After ~1–2 seconds, reset to idle **or** close the modal (choose one and be consistent)
-- [ ] **Motion** requirements:
-  - [ ] Backdrop fade in/out
-  - [ ] Modal entrance/exit animation
-  - [ ] At least one microinteraction animation (examples below are acceptable):
+- [x] **Motion** requirements:
+  - [x] Backdrop fade in/out
+  - [x] Modal entrance/exit animation
+  - [x] At least one microinteraction animation (examples below are acceptable):
     - [ ] Animated selected option indicator
-    - [ ] Button loading → success transition
+    - [x] Button loading → success transition
     - [ ] Image crossfade when variant changes
-    - [ ] Subtle press feedback on CTA
+    - [x] Subtle press feedback on CTA
 - [ ] TypeScript requirements:
   - [ ] No `any` for the core Shopify response shapes used in the modal (product, variants, options, prices)
 
