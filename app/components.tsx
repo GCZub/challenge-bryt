@@ -57,12 +57,3 @@ export const NameDisplay = (_: NameDisplayProps) => {
   return name;
 };
 
-export const productCard = ({ product }: any) => {
-  return (
-    <div key={product.id} className="border-2 border-gray-300 rounded p-4 w-full">  
-      <img src={product.images.edges[0].node.originalSrc} alt="" />
-      <h2>{product.title}</h2>
-      <p>{product.description}</p>
-    </div>
-  );
-};

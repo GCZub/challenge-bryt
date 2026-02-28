@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { DM_Sans, Google_Sans} from "next/font/google";
 import "./globals.css";
 
-const inter = Inter({ subsets: ["latin"] });
+const googleSans = Google_Sans({ subsets: ["latin"], variable: "--font-heading" });
+const dmSans = DM_Sans({ subsets: ["latin"], variable: "--font-sans" });
 
 export const metadata: Metadata = {
   title: "Bryt Designs Frontend Challenge",
@@ -18,7 +19,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${inter.className} bg-white text-black dark:bg-black dark:text-white`}
+        className={ `w-screen h-screen ${googleSans.variable} ${dmSans.variable} bg-white text-black dark:bg-black dark:text-white`}
       >
         {children}
       </body>
