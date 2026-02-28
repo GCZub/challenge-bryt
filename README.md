@@ -72,18 +72,18 @@ We’re not expecting a full storefront—**just one polished feature**.
 
 ### Required (Must Have)
 
-- [ ] Fetch and render a minimal product listing from the provided Shopify **collection handle** (Storefront API).
-- [ ] Each product card includes at least: image, title, price, and a **Quick View** trigger.
-- [ ] Clicking **Quick View** opens a **modal** (not a drawer).
-- [ ] Modal can be closed via:
-  - [ ] Close button
-  - [ ] Backdrop click
-  - [ ] `Escape` key
-- [ ] Background scroll is locked while the modal is open.
-- [ ] Basic focus management:
-  - [ ] Focus moves into the modal on open
-  - [ ] Focus returns to the triggering element on close
-- [ ] Product details shown inside the modal are fetched from Shopify’s **Storefront API** (GraphQL).
+- [x] Fetch and render a minimal product listing from the provided Shopify **collection handle** (Storefront API).
+- [x] Each product card includes at least: image, title, price, and a **Quick View** trigger.
+- [x] Clicking **Quick View** opens a **modal** (not a drawer).
+- [x] Modal can be closed via:
+  - [x] Close button
+  - [x] Backdrop click
+  - [x] `Escape` key
+- [x] Background scroll is locked while the modal is open.
+- [x] Basic focus management:
+  - [x] Focus moves into the modal on open
+  - [x] Focus returns to the triggering element on close
+- [x] Product details shown inside the modal are fetched from Shopify’s **Storefront API** (GraphQL).
 - [ ] Modal includes a designed **loading skeleton state** while product details are loading.
 - [ ] Modal layout:
   - [ ] Desktop: two-column layout (media left, content right)
