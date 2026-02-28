@@ -4,9 +4,15 @@
 
 With more time I would have alloted more detail and dedication to the structure and design of the product grid, as well as how these are display. Would have also implemented a better simulated add to cart, while also creating a cart modal/page to better show how users would see their products, the final amount to pay.
 
+I feel that the main tradeoff of my project, is sacrificing the time that I could have invested on a better design to make sure that the functionality of the app worked as expected. With more information about the company, their goals, their staff, their products, a beautiful styled aligned with the company culture and image could have been made, but as mentioned due to the limited time this had to be sacrificed.
+
 One of the main features I consider that would be good, and would have add with more time is a wishlist, letting the user store their desired products for easier access to this and see any possible price changes.
 
+There are a lot more possibilites to the project, like also allowing users to see the price difference drops of the products they added. Even adding a pre-order option for products that are not released yet or are out of stock, so they get notified, or get a order subimitted if the products comes back in stock for the same value.
 
+Some missing information in the DB like variants, or a description of the products allowing the users to learn more to make a more educated decision. 
+
+By the way I structured my calls are, the products are loaded immediately so despite designing a skeleton, it might only be necessary for slow connection users due to the data not being available instantly.
 
 
 ## Challenge Goals
@@ -25,7 +31,7 @@ One of the main features I consider that would be good, and would have add with 
   - [x] Focus moves into the modal on open
   - [x] Focus returns to the triggering element on close
 - [x] Product details shown inside the modal are fetched from Shopify’s **Storefront API** (GraphQL).
-- [ ] Modal includes a designed **loading skeleton state** while product details are loading.
+- [x] Modal includes a designed **loading skeleton state** while product details are loading.
 - [x] Modal layout:
   - [x] Desktop: two-column layout (media left, content right)
   - [x] Mobile: stacked layout (media top, content bottom)
